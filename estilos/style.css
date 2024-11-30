@@ -111,14 +111,17 @@ main {
     padding: 10px 35px;
     background-color: #a52a2a;
     color: white;
-    font-weight: bold;
+    font-weight: normal;
     border: none;
     border-radius: 12px;
+    transition: 0.9s;
 }
 
 #btn:hover {
     background-color: white;
     color: #a52a2a;
+    font-weight: bold;
+    transition: 0.9s;
 }
 
 
