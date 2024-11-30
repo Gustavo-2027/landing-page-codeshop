@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+
+    header {
+        justify-content: space-evenly;
+    }
+    
+    img {
+       display: block;
+    }
+    
+    .right > h2 {
+        text-align: center;
+    }
+
+    .right > p {
+        text-align: justify;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px)  /*TABLET*/ {
+
+    .left > img {
+        height: 80vh;
+        width: 60vw;
+    }
+
+    .right {
+        padding-right: 20px;
+    }
+
+}
