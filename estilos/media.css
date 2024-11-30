@@ -9,6 +9,14 @@
         margin: 0px 0px;
     }
 
+    h1 {
+        margin-bottom: 15px;
+    }
+
+    br {
+        display: none;
+    }
+
     .es {
         margin-right: 0px;
     }
