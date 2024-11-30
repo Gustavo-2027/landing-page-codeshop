@@ -87,10 +87,12 @@ main {
 .left > img {
     max-height: 90vh;
     width: 60vw;
+    transition: 1s;
 }
 
 .right {
     padding-right: 50px;
+    transition: 1s;
 }
 
 .right > h2 {
@@ -116,7 +118,6 @@ main {
     border: none;
     border-radius: 12px;
     transition: 0.9s;
-    cursor: pointer;
 }
 
 #btn:hover {
