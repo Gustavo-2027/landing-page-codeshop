@@ -4,10 +4,33 @@
 
     header {
         justify-content: space-evenly;
+        flex-flow: row wrap;
+        align-content: space-between;
+        margin: 0px 0px;
+    }
+
+    .es {
+        margin-right: 0px;
+    }
+
+    div {
+        max-height: 100vh;
+        max-width: 98vw;
+    }
+
+    main {
+        flex-flow: column;
+    }
+
+    .right {
+        display: flex;
+        flex-flow: column;
+        width: 70vw;
+        padding: 10px 10px;
     }
     
     img {
-       display: block;
+       width: 50px;
     }
     
     .right > h2 {

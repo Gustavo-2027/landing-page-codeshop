@@ -12,6 +12,7 @@
 
 body {
     max-height: 100vh;
+    max-width: 98vw;
     background:brown linear-gradient(#deb887, #deb887, #A58964) no-repeat;
 }
 
