@@ -116,6 +116,7 @@ main {
     border: none;
     border-radius: 12px;
     transition: 0.9s;
+    cursor: pointer;
 }
 
 #btn:hover {
