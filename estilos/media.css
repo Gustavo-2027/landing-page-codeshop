@@ -2,6 +2,10 @@
 
 @media screen and (max-width: 768px) {
 
+    body {
+        background: linear-gradient(#deb887, #deb887, #A58964) no-repeat fixed;
+    }
+
     header {
         display: block;
         justify-content: space-evenly;
@@ -16,8 +20,8 @@
         justify-content: center;
         flex-flow: column nowrap;
         align-items: center;
-        
-        margin-bottom: 15px;
+        margin: 15px auto;
+    
     }
 
     br {
@@ -30,6 +34,7 @@
         justify-content: space-around;
         align-content: center;
         margin-bottom: 10px;
+        margin: 0 auto;
     }
 
     menu > a {
@@ -61,7 +66,8 @@
     }
     
     img {
-       width: 50px;
+        margin-top: 20px;
+       width: 40px;
     }
     
     .right > h2 {

@@ -18,8 +18,8 @@ body {
 
 div {
     background: linear-gradient(#deb887, #deb887, #A58964) no-repeat fixed;
-    height: 120vh;
-    max-height: 130vh;
+    height: 150vh;
+    max-height: 150vh;
     display: flex;
     flex-flow: column;
 }
